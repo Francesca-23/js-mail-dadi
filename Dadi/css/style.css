@@ -1,0 +1,9 @@
+.dado-utente{
+    height: 8rem;
+    background-color: aqua;
+}
+
+.dado-computer{
+    height: 8rem;
+    background-color: mediumspringgreen;
+}

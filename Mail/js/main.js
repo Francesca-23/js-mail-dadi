@@ -30,21 +30,28 @@ function controlloMail(){
     p.className = "text-center bg-info-subtle rounded p-2";
 
 
+    let verifica = false;
+
     for(let i=0; i <= emails.length; i++){
 
         if(email == emails[i]){
-
-            p.innerHTML = "L'email è corretta";
-            createP.append(p);
+            verifica = true;
 
         }else{
-
-            p.innerHTML = "L'email non esiste";
-            createP.append(p);
             
         }
     }
 
+
+    //da sistemare
+    if(verifica = true){
+        p.innerHTML = "L'email è corretta";
+        createP.append(p);
+
+    }else{
+        console.log(sbagliato)
+    }
+    
 }
 
 
