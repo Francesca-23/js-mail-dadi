@@ -37,19 +37,17 @@ function controlloMail(){
         if(email == emails[i]){
             verifica = true;
 
-        }else{
-            
         }
     }
 
-
-    //da sistemare
-    if(verifica = true){
+    
+    if(verifica == true){
         p.innerHTML = "L'email è corretta";
         createP.append(p);
 
     }else{
-        console.log(sbagliato)
+        p.innerHTML = "L'email non è corretta";
+        createP.append(p);
     }
     
 }
